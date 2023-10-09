@@ -17,7 +17,7 @@ public class ProyectoRandom {
 		Scanner nombre = new Scanner(System.in);
 		String aventurero = nombre.nextLine();
 		while (bucle == true) {
-			System.out.println(aventurero + ", elija su proximo numero: " + a);
+			System.out.println(aventurero + ", elija su proximo numero: ");
 			Scanner scanner = new Scanner(System.in);
 			int numinputeado = scanner.nextInt();
 			intentos++;
